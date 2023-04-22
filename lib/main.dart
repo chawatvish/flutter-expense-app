@@ -2,5 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_expense_app/expenses.dart';
 
 void main() {
-  runApp(const ExpensesScreen());
+  runApp(const MaterialApp(
+    home: Expenses(),
+  ));
 }
